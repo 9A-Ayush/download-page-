@@ -32,6 +32,8 @@ This project provides a clean, responsive landing page for downloading the **Gat
 
 ---
 
+---
+
 ## 🚀 How to Use
 1. Place your APK file (e.g., `app-debug.apk`) in the same directory as `index.html`.  
 2. Place your mockup image (e.g., `mckp-removebg-preview.png`) in the same directory.  
@@ -55,6 +57,12 @@ This project provides a clean, responsive landing page for downloading the **Gat
 
 ---
 
+## 📦 Main Repository  
+
+[![GateEase Repo](https://img.shields.io/badge/Main%20Repo-GateEase-green?style=for-the-badge&logo=github)](https://github.com/9A-Ayush/Gate_Ease.git)  
+
+---
+
 ## 👨‍💻 Author
 - **Ayush Kumar**  
 
@@ -64,5 +72,3 @@ This project provides a clean, responsive landing page for downloading the **Gat
 ---
 
 🔥 Feel free to use or modify this page for your own app downloads!
-
-
