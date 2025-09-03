@@ -1,4 +1,4 @@
-# GateEase 🚪📱
+# GateEase 📱
 
 ![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)  
 ![HTML](https://img.shields.io/badge/Code-HTML-orange?style=for-the-badge&logo=html5)  
@@ -8,7 +8,7 @@
 ---
 
 <p align="center">
-  <img src="mckp-removebg-preview.png" alt="GateEase Icon" width="150" />
+  <img src="https://github.com/9A-Ayush/download-page-/blob/main/WhatsApp%20Image%202025-08-24%20at%2017.13.04_42303505.jpg" alt="GateEase Icon" width="150" />
 </p>
 
 A modern **society management app** for seamless living.  
@@ -64,3 +64,4 @@ This project provides a clean, responsive landing page for downloading the **Gat
 ---
 
 🔥 Feel free to use or modify this page for your own app downloads!
+
