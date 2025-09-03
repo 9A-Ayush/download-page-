@@ -25,15 +25,6 @@ This project provides a clean, responsive landing page for downloading the **Gat
 
 ---
 
-## 📂 File Structure
-|-- index.html
-|-- app-debug.apk
-|-- mckp-removebg-preview.png
-
----
-
----
-
 ## 🚀 How to Use
 1. Place your APK file (e.g., `app-debug.apk`) in the same directory as `index.html`.  
 2. Place your mockup image (e.g., `mckp-removebg-preview.png`) in the same directory.  
@@ -72,3 +63,4 @@ This project provides a clean, responsive landing page for downloading the **Gat
 ---
 
 🔥 Feel free to use or modify this page for your own app downloads!
+
