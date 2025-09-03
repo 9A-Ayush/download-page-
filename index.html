@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GateEase - Download Our App</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #d9f0ff, #a8d8f0);
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .content {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      animation: fadeInLeft 1.2s ease;
+    }
+
+    .content h1 {
+      font-size: 2.8rem;
+      color: #0f3057;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      font-size: 1.15rem;
+      color: #333;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .features {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    .features li {
+      padding-left: 25px;
+      background: url('https://cdn-icons-png.flaticon.com/512/845/845646.png') no-repeat left center / 18px;
+      margin-bottom: 10px;
+    }
+
+    /* Social links */
+    .socials {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: white;
+      background: #0f3057;
+      padding: 12px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      background: #145a8d;
+      transform: scale(1.1);
+    }
+
+    /* Download button */
+    .download-btn {
+      background: #ff6600;
+      color: white;
+      padding: 14px 28px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .download-btn:hover {
+      background: #e65500;
+      transform: translateY(-3px);
+    }
+
+    /* Right section - Phone mockup */
+    .phone {
+      flex: 1;
+      min-width: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: fadeInRight 1.2s ease;
+    }
+
+    .phone img {
+      max-width: 260px;
+      width: 100%;
+      filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+    }
+
+    /* Animations */
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .features li {
+        padding-left: 0;
+        background: none;
+      }
+
+      .socials {
+        justify-content: center;
+      }
+    }
+
+    /* Thank You Modal */
+    .thankyou-modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+      animation: popIn 0.5s ease;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+
+    .modal-content h2 {
+      color: #0f3057;
+      margin-bottom: 12px;
+    }
+
+    .modal-content p {
+      color: #444;
+      font-size: 1.05rem;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 20px; right: 30px;
+      font-size: 2rem;
+      cursor: pointer;
+      color: white;
+    }
+
+    @keyframes popIn {
+      from { transform: scale(0.7); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Left Content -->
+    <div class="content">
+      <h1>GateEase</h1>
+      <p>Your smart society management app for a seamless living experience.</p>
+      <ul class="features">
+        <li>Visitor & security management</li>
+        <li>Service requests & complaints</li>
+        <li>Bill payments & reminders</li>
+        <li>Vendor marketplace & deals</li>
+        <li>Community announcements</li>
+      </ul>
+
+      <!-- Social Links -->
+      <div class="socials">
+        <a href="https://github.com/9A-Ayush" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="http://www.linkedin.com/in/ayush-kumar-849a1324b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/ayush_ix_xi" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <!-- Download Button -->
+      <button class="download-btn" onclick="downloadApp()"><i class="fas fa-download"></i> Download App</button>
+    </div>
+
+    <!-- Right Phone Mockup -->
+    <div class="phone">
+      <img src="mckp-removebg-preview.png" alt="GateEase App Mockup">
+    </div>
+  </div>
+
+  <!-- Thank You Modal -->
+  <div class="thankyou-modal" id="thankyouModal">
+    <div class="modal-content">
+      <h2>🎉 Thank You!</h2>
+      <p>Your GateEase download has started.<br>We’re excited to have you onboard 🚀</p>
+    </div>
+  </div>
+
+  <script>
+    function downloadApp() {
+      // Start APK download
+      const apkUrl = "app-debug.apk"; // replace with actual APK file
+      const link = document.createElement("a");
+      link.href = apkUrl;
+      link.download = "GateEase.apk";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      // Show Thank You modal
+      const modal = document.getElementById("thankyouModal");
+      modal.style.display = "flex";
+
+      // Auto-close modal after 5s
+      setTimeout(() => {
+        modal.style.display = "none";
+      }, 5000);
+    }
+  </script>
+</body>
+</html>
