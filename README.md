@@ -61,6 +61,13 @@ This project provides a clean, responsive landing page for downloading the **Gat
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-blue?logo=linkedin)](http://www.linkedin.com/in/ayush-kumar-849a1324b)  
 
 ---
+## ☕ Support My Work  
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/9a.ayush)
+ 
 
 🔥 Feel free to use or modify this page for your own app downloads!
+
+_"Code. Secure. Innovate."_
+
 
